@@ -40,7 +40,7 @@ After the 4 week staking period ends, the Steak protocol team will set the addre
 
 All the files listed below are in scope.
 
-```js
+```
 src/
 ├── steaking-contracts
 │   └── src
