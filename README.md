@@ -27,7 +27,7 @@
 
 Steak is a yield farming protocol in its pre-launch phase. It boasts an attractive APY, various vault management strategies, and a strong and active community. Being in the pre-launch phase, Steak wants to bootstrap liquidity for its ERC4626 WETH vault and reward early adopters. For this, Steak has launched a points campaign where users can stake their ETH and earn points, which will allow users to be eligible for the $STEAK token airdrop in the future.
 
-The staking period lasts for a total of 4 weeks where users can stake their raw ETH in the `Steaking` contract. The minimum amount that can be staked is `0.5` ether. 1 ETH staked gives the user 100 points on the backend server. Users can unstake to adjust their staked ETH amount, or withdraw it completely.
+The staking period lasts for a total of 4 weeks where users can stake their raw ETH in the `Steaking` contract. The minimum amount that can be staked is `0.5` ether. 1 ETH staked gives the user 1000 points on the backend server. Users can unstake to adjust their staked ETH amount, or withdraw it completely.
 
 After the 4 week staking period ends, the Steak protocol team will set the address of the freshly deployed ERC4626 WETH vault. Users will be able to convert their raw staked ETH into WETH, deposit into the WETH vault, and claim their shares.
 
