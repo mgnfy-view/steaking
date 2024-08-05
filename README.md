@@ -79,7 +79,7 @@ source .venv/bin/activate
 Then install all the requirements from `requirements.txt`,
 
 ```bash
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 ```
 
 Now, it's time to setup Foundry,
