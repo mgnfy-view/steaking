@@ -18,6 +18,7 @@ async function main() {
 
     steaking.on(STAKED, async (_, amount, onBehalfOf) => {
         let steakPoints;
+
         steakPoints = await steakPointsModel.findOne({ walletAddress: onBehalfOf });
 
         if (!steakPoints) {
