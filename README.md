@@ -1,10 +1,10 @@
 # Steaking
 
-<!-- <br/>
+<br/>
 <p align="center">
-<img src="./logo.png" width="500" alt="project-name">
+<img src="./images/logo.png" width="500" alt="project-name">
 </p>
-<br/> --> 
+<br/> 
 
 
 # Contest Details
