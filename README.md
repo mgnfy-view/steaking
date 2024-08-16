@@ -44,6 +44,9 @@ All the files listed below are in scope.
 src
 ├── steaking-contracts
 │   └── src
+│       └── interfaces
+│       │   ├── IWETH.vyi
+│       │   └── IWETHSteakVault.vyi
 │       └── Steaking.vy
 └── steaking-server
     └── src
@@ -85,6 +88,8 @@ pip3 install -r requirements.txt
 Now, it's time to setup Foundry,
 
 ```bash
+forge install foundry-rs/forge-std --no-commit
+forge install openzeppelin/openzeppelin-contracts --no-commit
 forge test
 ```
 
@@ -102,6 +107,7 @@ Continue by filling in the values in `.env.example`, and renaming the file to `.
 
 ```bash
 pnpm install
+pnpm run dev
 ```
 
 ## Known Issues
